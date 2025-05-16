@@ -3,7 +3,7 @@
 # text = 'python'
 # modified_text = text[0].upper() + text[1:]
 # print(modified_text)
-from operator import truediv
+# from operator import truediv
 
 # # zad 2, count a
 # count = 0
