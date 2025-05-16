@@ -14,7 +14,7 @@
 # for char in text:
 #     if char == 'a':
 #         count += 1
-# print(f'"a" wystepuje {count} razy')
+# print(f'Input: "{text}", Output: {count}')
 
 # # zad 3, revert
 # # text = input('Podaj tekst: ')
@@ -52,7 +52,7 @@
 # if number < 0:
 #     print('silni nie liczy sie dla liczb mniejszych niz 0')
 # elif number == 0:
-#     print(f'silnia {number} = ' + str(1))
+#     print(f'Input: {number}, Output: {1}')
 # else:
 #     value = 1
 #     for i in range(1, number + 1):
