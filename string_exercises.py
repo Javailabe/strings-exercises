@@ -56,3 +56,21 @@
 #     for i in range(1, number + 1):
 #         value *= i
 #     print(f'silnia {number} = ' + str(value))
+
+# # zad 9, najwieksza z ciagu
+# text = input('Podaj liczbe calkowita: ')
+# numbers = list(text)
+# maximum = max(numbers)
+# print(maximum)
+
+# # zad 10, liczba na binarne
+# text = input('Podaj liczbe calkowita: ')
+# number = int(text)
+# binary_format = bin(number)[2:]
+# print(binary_format)
+
+# # zad 11, zlicz slowa
+# # text = input('Napisz zdanie: ')
+# test_string = 'To jest przykładowe zdanie'
+# table_text = test_string.split(' ')
+# print(f'ilosc slow w zdaniu {test_string} to {len(table_text)}')
