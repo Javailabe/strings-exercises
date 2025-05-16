@@ -1,5 +1,5 @@
 # # zad 1, first letter capital
-# # text = input('Podaj tekst: ')
+# text = input('Podaj tekst: ')
 # text = 'python'
 # modified_text = text[0].upper() + text[1:]
 # print(modified_text)
@@ -18,3 +18,41 @@
 # text = 'kot'
 # reversed_text = text[::-1]
 # print(reversed_text)
+
+# # zad 4, palidrome check
+# # text = input('Podaj tekst: ')
+# text = 'kajak'
+# processed_text = text[::-1]
+# print('is plaindrome: ' + str(text == processed_text))
+
+# # zad 5, spaces to -
+# # text = input('Podaj tekst: ')
+# text = 'Ala ma kota'
+# replaced_text = text.replace(' ', '-')
+# print(replaced_text)
+
+# # zad 6, sum for each char
+# text = input('Podaj liczbe calkowita: ')
+# sum = 0
+# for char in text:
+#     num = int(char)
+#     sum += num
+# print(f'suma liczb z ciągu {text} to ' + str(sum))
+
+# # zad 7, czy parzysta
+# text = input('Podaj liczbe calkowita: ')
+# number = int(text)
+# print(f'czy {number} jest parzyste? {number % 2 == 0}')
+
+# # zad 8, silnia
+# text = input('Podaj liczbe calkowita: ')
+# number = int(text)
+# if number < 0:
+#     print('silni nie liczy sie dla liczb mniejszych niz 0')
+# elif number == 0:
+#     print(f'silnia {number} = ' + str(1))
+# else:
+#     value = 1
+#     for i in range(1, number + 1):
+#         value *= i
+#     print(f'silnia {number} = ' + str(value))
