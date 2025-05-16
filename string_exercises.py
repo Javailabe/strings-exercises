@@ -3,6 +3,7 @@
 # text = 'python'
 # modified_text = text[0].upper() + text[1:]
 # print(modified_text)
+from operator import truediv
 
 # # zad 2, count a
 # count = 0
@@ -74,3 +75,25 @@
 # test_string = 'To jest przykładowe zdanie'
 # table_text = test_string.split(' ')
 # print(f'ilosc slow w zdaniu {test_string} to {len(table_text)}')
+
+# # zad 12, usun cyfry
+# # text = input('Napisz cos: ')
+# test_string = 'asdhj123ghk89kdjf34'
+# non_int_string = ''
+# for char in test_string:
+#     if not char.isdigit():
+#         non_int_string += char
+# print(non_int_string)
+
+# # zad 13, sprawdz czy tylko litery
+# # # text = input('Napisz cos: ')
+# # test_string = 'asdhj123ghk89kdjf34'
+# test_string = 'ala ma kota'
+# letters_only = True
+# for char in test_string:
+#     if not char.isdigit():
+#         letters_only = True
+#     else:
+#         letters_only = False
+#         break
+# print(f'czy string "{test_string}" sklada sie tylko z liter? {letters_only}')
