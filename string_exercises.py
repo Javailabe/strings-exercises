@@ -1,10 +1,10 @@
 # from operator import truediv
 
 # # zad 1, first letter capital
-# text = input('Podaj tekst: ')
+# # text = input('Podaj tekst: ')
 # text = 'python'
 # modified_text = text[0].upper() + text[1:]
-# print(modified_text)
+# print(f'Input: {text}, Output: {modified_text}')
 
 
 # # zad 2, count a
@@ -14,25 +14,24 @@
 # for char in text:
 #     if char == 'a':
 #         count += 1
-# print('a wystepuje: ' + str(count))
+# print(f'"a" wystepuje {count} razy')
 
 # # zad 3, revert
 # # text = input('Podaj tekst: ')
 # text = 'kot'
 # reversed_text = text[::-1]
-# print(reversed_text)
+# print(f'Input: {text}, Output: {text[::-1]}')
 
 # # zad 4, palidrome check
 # # text = input('Podaj tekst: ')
 # text = 'kajak'
 # processed_text = text[::-1]
-# print('is plaindrome: ' + str(text == processed_text))
+# print(f'Input: {text}, Output: {text == processed_text}')
 
 # # zad 5, spaces to -
 # # text = input('Podaj tekst: ')
 # text = 'Ala ma kota'
-# replaced_text = text.replace(' ', '-')
-# print(replaced_text)
+# print(f'Input: "{text}", Output: "{text.replace(' ', '-')}"')
 
 # # zad 6, sum for each char
 # text = input('Podaj liczbe calkowita: ')
@@ -40,12 +39,12 @@
 # for char in text:
 #     num = int(char)
 #     sum += num
-# print(f'suma liczb z ciągu {text} to ' + str(sum))
+# print(f'Input: {text}, Output: {sum}')
 
 # # zad 7, czy parzysta
 # text = input('Podaj liczbe calkowita: ')
 # number = int(text)
-# print(f'czy {number} jest parzyste? {number % 2 == 0}')
+# print(f'Input: {number}, Output: {number % 2 == 0}')
 
 # # zad 8, silnia
 # text = input('Podaj liczbe calkowita: ')
