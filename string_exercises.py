@@ -57,25 +57,23 @@
 #     value = 1
 #     for i in range(1, number + 1):
 #         value *= i
-#     print(f'silnia {number} = ' + str(value))
+#     print(f'Input: {number}, Output: {value}')
 
 # # zad 9, najwieksza z ciagu
 # text = input('Podaj liczbe calkowita: ')
 # numbers = list(text)
-# maximum = max(numbers)
-# print(maximum)
+# print(f'Imput: {text}, Output: {max(numbers)}')
 
 # # zad 10, liczba na binarne
 # text = input('Podaj liczbe calkowita: ')
 # number = int(text)
-# binary_format = bin(number)[2:]
-# print(binary_format)
+# print(f'Input: {number}, Output: "{bin(number)[2:]}"')
 
 # # zad 11, zlicz slowa
 # # text = input('Napisz zdanie: ')
 # test_string = 'To jest przykładowe zdanie'
 # table_text = test_string.split(' ')
-# print(f'ilosc slow w zdaniu {test_string} to {len(table_text)}')
+# print(f'Input: "{test_string}", Output: {len(table_text)}')
 
 # # zad 12, usun cyfry
 # # text = input('Napisz cos: ')
@@ -84,17 +82,17 @@
 # for char in test_string:
 #     if not char.isdigit():
 #         non_int_string += char
-# print(non_int_string)
+# print(f'Input: "{test_string}", Output: "{non_int_string}"')
 
 # # zad 13, sprawdz czy tylko litery
 # # # text = input('Napisz cos: ')
 # # test_string = 'asdhj123ghk89kdjf34'
-# test_string = 'ala ma kota'
-# letters_only = True
+# test_string = 'Python3'
+# is_letters_only = True
 # for char in test_string:
 #     if not char.isdigit():
-#         letters_only = True
+#         is_letters_only = True
 #     else:
-#         letters_only = False
+#         is_letters_only = False
 #         break
-# print(f'czy string "{test_string}" sklada sie tylko z liter? {letters_only}')
+# print(f'Input: "{test_string}", Output: {is_letters_only}')
