@@ -1,9 +1,11 @@
+# from operator import truediv
+
 # # zad 1, first letter capital
 # text = input('Podaj tekst: ')
 # text = 'python'
 # modified_text = text[0].upper() + text[1:]
 # print(modified_text)
-# from operator import truediv
+
 
 # # zad 2, count a
 # count = 0
