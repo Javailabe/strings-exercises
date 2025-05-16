@@ -1,5 +1,3 @@
-# from operator import truediv
-
 # # zad 1, first letter capital
 # # text = input('Podaj tekst: ')
 # text = 'python'
